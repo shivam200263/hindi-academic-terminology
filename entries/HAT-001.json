@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "entry_id": "HAT-001",
+  "english_term": "gainsay",
+  "sense_id": "HAT-001-S1",
+  "discipline": ["Linguistics", "Lexicography", "Argumentation"],
+  "subdiscipline": ["Bilingual Terminology", "Semantic Analysis"],
+  "definition_english": "To contradict, deny or dispute a statement or proposition.",
+  "definition_hindi": "किसी कथन या दावे का खंडन करना अथवा उसके विरुद्ध कहना।",
+  "preferred_hindi_equivalent": "खंडन करना",
+  "alternative_hindi_equivalents": ["प्रतिवाद करना", "विरोध में कहना", "अस्वीकार करना", "नकारना"],
+  "english_lexical_cluster": ["contradict", "deny", "dispute", "refute", "controvert"],
+  "hindi_lexical_cluster": ["खंडन", "प्रतिवाद", "विरोध", "अस्वीकार", "नकार"],
+  "equivalence_mapping": [
+    {
+      "english_term": "gainsay",
+      "hindi_equivalent": "खंडन करना",
+      "transliteration": "Not yet established",
+      "relationship": "Preferred (preliminary)",
+      "semantic_accuracy": "Not yet established",
+      "usage_status": "Not yet established"
+    }
+  ],
+  "pairwise_comparison": [],
+  "linguistic_analysis": {
+    "english": "Irregular transitive verb",
+    "hindi": "Noun-plus-verb construction"
+  },
+  "grammatical_metadata": {
+    "status": "Partially documented",
+    "english": {},
+    "hindi": {}
+  },
+  "conceptual_analysis": "Contradiction or denial; proof of falsity is not obligatory.",
+  "existing_usage": [],
+  "proposed_terminology": {
+    "term": null,
+    "proposal_status": "No new equivalent proposed"
+  },
+  "terminology_status": "UNDER STANDARDISATION",
+  "linguistic_validity": "Strong",
+  "academic_acceptance": "Limited",
+  "evidence_strength": "Moderate",
+  "references": [],
+  "licensing_information": {
+    "content_licence": "CC BY 4.0",
+    "status": "Source-specific clearance incomplete"
+  },
+  "translation_memory_metadata": {"status": "Prepared"},
+  "nlp_metadata": {"status": "Proposed"},
+  "educational_metadata": {"status": "Prepared"},
+  "unresolved_questions": ["CSTT verification", "Academic corpus frequency", "Expert review"],
+  "reviewer_feedback": [],
+  "revision_history": [
+    {"version": "0.1.0", "date": "2026-11-18", "change": "Initial research record"},
+    {"version": "0.1.1", "date": "2026-11-23", "change": "Converted to typed schema v1"}
+  ],
+  "last_research_date": "2026-11-18",
+  "verification_status": "Partially verified"
+}
