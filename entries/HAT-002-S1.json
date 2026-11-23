@@ -1,0 +1,164 @@
+{
+  "schema_version": "1.1",
+  "entry_id": "HAT-002",
+  "english_term": "hypothecation",
+  "sense_id": "HAT-002-S1",
+  "discipline": ["Law", "Banking", "Finance", "Commerce"],
+  "subdiscipline": ["Secured Transactions", "Commercial Banking", "Insolvency and Recovery"],
+  "definition_english": "A security charge created by a borrower over existing or future movable property in favour of a lender, where ownership and possession of the asset stay with the borrower.",
+  "definition_hindi": "ऋण की प्रतिभूति के रूप में उधारकर्ता द्वारा किसी वर्तमान या भावी चल संपत्ति पर ऋणदाता के पक्ष में सृजित प्रभार, जिसमें संपत्ति का स्वामित्व और कब्ज़ा उधारकर्ता के पास ही रहता है।",
+  "preferred_hindi_equivalent": "दृष्टिबंधक",
+  "alternative_hindi_equivalents": ["आडमान", "दृष्टिबंधन", "मालबंधन", "हाइपोथिकेशन"],
+  "etymology": {
+    "english": {
+      "origin": "Late Latin hypotheca (pledge), from Greek hypothēkē (hypo 'under' + tithenai 'to place').",
+      "caution": "Based on the dossier; not independently checked against an etymological dictionary."
+    },
+    "hindi_drishtibandhaka": {
+      "formation": "दृष्टि + बंधक, a Sanskrit-derived compound.",
+      "caution": "Analysis of the compound is the dossier's; not verified."
+    },
+    "hindi_adamana": {
+      "origin": "Reported as a Tamil loanword (அடமானம்) adopted in Hindi legal usage.",
+      "caution": "Rests on one indexed IGNOU excerpt; verify before asserting."
+    }
+  },
+  "semantic_cluster": {
+    "english_terms": ["hypothecation", "non-possessory security interest", "chattel mortgage", "floating charge", "bottomry", "respondentia"],
+    "hindi_terms": ["दृष्टिबंधक", "आडमान", "दृष्टिबंधन", "मालबंधन", "हाइपोथिकेशन"],
+    "related_concepts": ["pledge", "mortgage", "lien", "encumbrance", "crystallization", "secured creditor", "book debts"],
+    "synonyms": ["non-possessory charge"],
+    "near_synonyms": ["floating charge", "equitable charge"],
+    "antonyms": ["unsecured advance", "release of charge", "unencumbered asset"],
+    "broader_terms": ["security interest", "charge", "encumbrance"],
+    "narrower_terms": ["vehicle hypothecation", "stock hypothecation", "crop hypothecation", "hypothecation of book debts"],
+    "confusables": ["pledge", "mortgage", "lien", "tax hypothecation (see HAT-002-S2)"]
+  },
+  "equivalence_mapping": [
+    {"english_term": "hypothecation", "hindi_equivalent": "दृष्टिबंधक", "transliteration": "dr̥ṣṭibandhaka", "relationship": "Direct equivalent; preferred in banking", "semantic_accuracy": "High", "usage_status": "Reported in RBI circular and glossary; not independently verified"},
+    {"english_term": "hypothecation", "hindi_equivalent": "आडमान", "transliteration": "āḍamāna", "relationship": "Direct equivalent; statutory register", "semantic_accuracy": "High", "usage_status": "Reported in Hindi statutes and legal glossary; partly verified"},
+    {"english_term": "hypothecation", "hindi_equivalent": "दृष्टिबंधन", "transliteration": "dr̥ṣṭibandhana", "relationship": "Near equivalent", "semantic_accuracy": "Moderate to high", "usage_status": "Attested in dossier; source not established"},
+    {"english_term": "hypothecation", "hindi_equivalent": "मालबंधन", "transliteration": "mālabandhana", "relationship": "Competing translation; narrower", "semantic_accuracy": "Moderate", "usage_status": "Administrative glossaries reported; low adoption"},
+    {"english_term": "hypothecation", "hindi_equivalent": "हाइपोथिकेशन", "transliteration": "hāipōthikēśana", "relationship": "Transliteration", "semantic_accuracy": "High", "usage_status": "Common in retail banking"},
+    {"english_term": "hypothecation", "hindi_equivalent": "बंधक / गिरवी", "transliteration": "bandhaka / giravī", "relationship": "Incorrect or misleading equivalent", "semantic_accuracy": "Low", "usage_status": "Conflates with mortgage or pledge"}
+  ],
+  "grammatical_metadata": {
+    "english": {
+      "lemma": "hypothecation",
+      "part_of_speech": ["noun"],
+      "countability": "Mostly uncountable; countable for discrete charges",
+      "number": "Singular; plural hypothecations",
+      "inflections": ["hypothecation", "hypothecations"],
+      "derivations": ["hypothecate", "hypothecated", "hypothecating", "hypothecator", "hypothecatee", "rehypothecation"],
+      "syntactic_patterns": ["hypothecation of [asset] in favour of [creditor]", "charge by way of hypothecation", "deed of hypothecation"],
+      "collocations": ["hypothecation agreement", "deed of hypothecation", "hypothecation of stock", "hypothecation of vehicles"]
+    },
+    "hindi": {
+      "lemma": "दृष्टिबंधक",
+      "part_of_speech": ["संज्ञा"],
+      "noun_type": "जातिवाचक (तकनीकी) संज्ञा",
+      "gender": "पुल्लिंग",
+      "number": "एकवचन (प्रायः अगणनीय)",
+      "case": "परसर्ग के साथ: का/के, पर, में, से",
+      "postpositions": ["का", "के", "पर", "में", "से", "के रूप में"],
+      "declension": "अकारान्त पुल्लिंग; Not yet verified against a grammar source",
+      "verb_forms": ["दृष्टिबंधक रखना", "दृष्टिबंधक करना", "दृष्टिबंधक होना"],
+      "transitivity": "Conjunct verbs: transitive with करना/रखना; intransitive with होना",
+      "tense": [],
+      "aspect": [],
+      "voice": [],
+      "person": [],
+      "honorificity": "Not applicable",
+      "adjective_agreement": "Masculine singular agreement with modifiers",
+      "morphology": {
+        "दृष्टिबंधक": "दृष्टि + बंधक; tatsama compound",
+        "आडमान": "Reported Tamil loanword; masculine"
+      },
+      "syntactic_patterns": ["[चल संपत्ति] का [बैंक] के पक्ष में दृष्टिबंधक", "[संपत्ति] को दृष्टिबंधक रखकर ऋण लेना"],
+      "collocations": ["दृष्टिबंधक करार", "दृष्टिबंधक विलेख", "आडमान करार"]
+    }
+  },
+  "pronunciation": {
+    "english_ipa": "/haɪˌpɒθɪˈkeɪʃən/ (UK); /haɪˌpɑːθəˈkeɪʃən/ (US)",
+    "hindi_ipa": "Not yet established",
+    "hindi_transliteration": "dr̥ṣṭibandhaka; āḍamāna"
+  },
+  "register_and_pragmatics": {
+    "formality": "Formal",
+    "academic_register": "Legal and banking technical register",
+    "tone": "Neutral",
+    "connotation": "Neutral",
+    "cultural_nuances": ["दृष्टिबंधक is transparent to Sanskrit-literate readers", "आडमान may feel unfamiliar outside legal texts"],
+    "usage_restrictions": ["Prefer दृष्टिबंधक in banking and commerce", "Prefer आडमान when translating Hindi statutory text", "Do not use बंधक or गिरवी as standalone equivalents", "Do not use for tax hypothecation (see HAT-002-S2)"]
+  },
+  "linguistic_analysis": {
+    "sense_structure": "Sense 1: commercial and legal security charge. Tax hypothecation is a separate sense, HAT-002-S2.",
+    "word_formation": "दृष्टिबंधक is a transparent compound; आडमान is a borrowing.",
+    "semantic_loss": "Hindi needs conjunct verbs for the English verb hypothecate; gender is obligatory in Hindi.",
+    "register": "दृष्टिबंधक for banking; आडमान for statutes.",
+    "candidate_scorecard_1_to_5": [
+      {"candidate": "दृष्टिबंधक", "semantic_equivalence": 5, "conceptual_precision": 5, "linguistic_validity": 5, "academic_usability": 5, "readability": 4, "observed_usage": 4, "disciplinary_suitability": 5, "basis": "Manual assessment from dossier; sources not independently verified."},
+      {"candidate": "आडमान", "semantic_equivalence": 5, "conceptual_precision": 5, "linguistic_validity": 4, "academic_usability": 4, "readability": 2, "observed_usage": 4, "disciplinary_suitability": 5, "basis": "Manual assessment from dossier; sources not independently verified."},
+      {"candidate": "मालबंधन", "semantic_equivalence": 3, "conceptual_precision": 2, "linguistic_validity": 3, "academic_usability": 2, "readability": 4, "observed_usage": 2, "disciplinary_suitability": 2, "basis": "Manual assessment from dossier."}
+    ]
+  },
+  "conceptual_analysis": {
+    "core_boundary": "A non-possessory security interest over movable property; the borrower keeps ownership and possession.",
+    "not_implied": ["Transfer of possession", "Security over immovable property", "A mere right to retain goods"],
+    "critical_distinctions": {
+      "vs_pledge": "A pledge transfers possession to the lender; hypothecation does not.",
+      "vs_mortgage": "A mortgage concerns immovable property; hypothecation concerns movable property.",
+      "vs_lien": "A lien is a right to retain goods already in the holder's possession."
+    }
+  },
+  "pairwise_comparison": [
+    {"term_a": "दृष्टिबंधक", "term_b": "आडमान", "semantic_overlap": "Very high", "difference": "Banking register versus statutory register; आडमान is less familiar to general readers.", "interchangeability": "Same concept; choose by domain."},
+    {"term_a": "दृष्टिबंधक", "term_b": "मालबंधन", "semantic_overlap": "Moderate", "difference": "मालबंधन suggests goods only and is narrower for intangible movables.", "interchangeability": "Not recommended."},
+    {"term_a": "दृष्टिबंधक", "term_b": "बंधक / गिरवी", "semantic_overlap": "Low", "difference": "Suggests mortgage or pledge, not a non-possessory charge.", "interchangeability": "Not interchangeable."}
+  ],
+  "existing_usage": [
+    {"term": "दृष्टिबंधक", "publication": "RBI circular भारिबैं/2021-22/14 (Priority Sector Lending)", "author": "Reserve Bank of India", "year": "2021", "discipline": "Banking regulation", "context": "Reported use of दृष्टिबंधक in the Hindi circular; not independently opened.", "page_or_section": "Paras 2, 3 (as reported)", "usage_type": "Regulatory notification", "url": "https://www.rbi.org.in/hindi/Scripts/Notifications.aspx?Id=6760&Mode=0", "frequency": "Not measured"},
+    {"term": "आडमान", "publication": "Vidhi Shabdavali (Legal Glossary)", "author": "Legislative Department, Ministry of Law and Justice, GoI", "year": "2023 (upload)", "discipline": "Law", "context": "Glossary entry for hypothecation; seen only as an indexed excerpt.", "page_or_section": "Entry: hypothecation", "usage_type": "Official legal glossary", "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2023/02/2023021779-4.pdf", "frequency": "Not measured"},
+    {"term": "आडमान", "publication": "IGNOU MTT-052 Unit 7", "author": "IGNOU", "year": "Not yet established", "discipline": "Translation studies", "context": "Cited for the Tamil origin of आडमान; seen only as an indexed excerpt.", "page_or_section": "p. 200 (as reported)", "usage_type": "University course material", "url": "https://egyankosh.ac.in/bitstream/123456789/91647/1/Unit-7.pdf", "frequency": "Not measured"},
+    {"term": "आडमान", "publication": "Motor Vehicles Act, 1988 (Hindi text)", "author": "Parliament of India", "year": "1988", "discipline": "Statutory law", "context": "Reported in Secs. 2(8)(d), 51, 64, 110A; not opened.", "page_or_section": "As reported", "usage_type": "Statute", "url": "Not yet established", "frequency": "Not measured"},
+    {"term": "दृष्टिबंधक / आडमान", "publication": "Court judgments (Chhattisgarh High Court FA 6/02; Supreme Court Hindi journal)", "author": "Courts", "year": "Not yet established", "discipline": "Judiciary", "context": "Mentioned in the dossier; not opened.", "page_or_section": "Not yet established", "usage_type": "Court judgment", "url": "Not yet established", "frequency": "Not measured"}
+  ],
+  "proposed_terminology": {
+    "term": null,
+    "proposal_status": "No new Hindi equivalent is necessary based on the available evidence.",
+    "word_formation": null,
+    "justification": "Two attested equivalents exist (दृष्टिबंधक for banking, आडमान for statutes)."
+  },
+  "terminology_status": "ATTESTED",
+  "linguistic_validity": "Strong",
+  "academic_acceptance": "Attested",
+  "evidence_strength": "Moderate",
+  "overall_confidence": "Moderate. Core equivalents are plausible and cited, but most sources were not independently opened and no exact CSTT entry was retrieved.",
+  "references": [
+    {"author_or_institution": "Reserve Bank of India", "title": "Priority Sector Lending Circular (2021-22/14)", "year": "2021", "page_or_section": "Paras 2, 3", "url": "https://www.rbi.org.in/hindi/Scripts/Notifications.aspx?Id=6760&Mode=0", "source_type": "Official regulatory circular", "claim_supported": "Use of दृष्टिबंधक in banking", "licence": "All rights reserved", "commercial_reuse": "D", "attribution_requirements": "Attribute RBI", "verification_status": "Not independently verified"},
+    {"author_or_institution": "Legislative Department, Ministry of Law and Justice, GoI", "title": "Vidhi Shabdavali (Legal Glossary)", "year": "2023", "page_or_section": "Entry: hypothecation", "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2023/02/2023021779-4.pdf", "source_type": "Official legal glossary", "claim_supported": "आडमान as legal equivalent", "licence": "Unclear", "commercial_reuse": "E", "attribution_requirements": "Attribute Ministry of Law and Justice, GoI", "verification_status": "Partially verified"},
+    {"author_or_institution": "IGNOU", "title": "MTT-052 Unit 7", "year": "Not yet established", "page_or_section": "p. 200", "url": "https://egyankosh.ac.in/bitstream/123456789/91647/1/Unit-7.pdf", "source_type": "University course material", "claim_supported": "Tamil origin of आडमान", "licence": "Unclear", "commercial_reuse": "E", "attribution_requirements": "Attribute IGNOU eGyanKosh", "verification_status": "Partially verified"},
+    {"author_or_institution": "Parliament of India", "title": "SARFAESI Act, 2002", "year": "2002", "page_or_section": "Section 2(1)(n)", "url": "https://mahakamgar.maharashtra.gov.in/Upload/PDF/securitisation-act-2002.pdf", "source_type": "Statute", "claim_supported": "Statutory English definition of hypothecation", "licence": "Unclear", "commercial_reuse": "E", "attribution_requirements": "Cite SARFAESI Act, 2002", "verification_status": "Not independently verified"}
+  ],
+  "licensing_information": {
+    "content_licence": "CC BY 4.0",
+    "status": "Source-specific clearance incomplete; definitions and analysis are original"
+  },
+  "translation_memory_metadata": {"status": "Not yet established"},
+  "nlp_metadata": {"status": "Not yet established"},
+  "educational_metadata": {"status": "Not yet established"},
+  "unresolved_questions": [
+    "Direct CSTT (shabd.education.gov.in) entry not retrieved",
+    "Hindi Gazette wording of SARFAESI Sec. 2(1)(n) not checked",
+    "Court judgments and Motor Vehicles Act pages not opened",
+    "Corpus frequency not established",
+    "Expert review"
+  ],
+  "reviewer_feedback": [],
+  "revision_history": [
+    {"version": "0.1.0", "date": "2026-11-23", "change": "Initial research dossier"},
+    {"version": "0.1.1", "date": "2026-11-23", "change": "Refined to schema v1.1; status downgraded to ATTESTED"}
+  ],
+  "last_research_date": "2026-11-23",
+  "verification_status": "Partially verified"
+}
