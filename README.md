@@ -6,6 +6,8 @@ An evidence-based English-Hindi academic terminology resource.
 
 **Takedown:** if you hold rights to any content here, contact [soni362002@gmail.com] and it will be removed promptly.
 
+Feedback and corrections welcome: soni362002@gmail.com
+
 ## Structure
 - `entries/` one JSON file per term
 - `sentences/original/` original English-Hindi sentence pairs
