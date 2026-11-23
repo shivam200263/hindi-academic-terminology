@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.1",
+  "entry_id": "HAT-002",
+  "english_term": "hypothecation",
+  "sense_id": "HAT-002-S2",
+  "discipline": ["Economics", "Public Finance", "Public Policy"],
+  "subdiscipline": ["Fiscal Policy", "Taxation", "Public Budgeting"],
+  "definition_english": "Dedicating the revenue from a specific tax or levy to a designated public spending purpose, instead of pooling it in the general fund.",
+  "definition_hindi": "किसी विशिष्ट कर या उपकर से प्राप्त राजस्व को सामान्य निधि में मिलाने के बजाय केवल किसी निर्धारित सार्वजनिक व्यय प्रयोजन के लिए आरक्षित करने की राजकोषीय व्यवस्था।",
+  "preferred_hindi_equivalent": "उद्दिष्ट कर-आबंटन",
+  "alternative_hindi_equivalents": ["कर-प्रयोजनबद्धता", "उद्दिष्ट कराधान", "चिह्नित कर-राजस्व"],
+  "etymology": {
+    "english": {
+      "origin": "Extended use of legal hypothecation: dedicating a specific revenue stream to a specific expenditure.",
+      "caution": "Based on the dossier; not independently checked."
+    },
+    "hindi_proposed": {
+      "formation": "उद्दिष्ट (designated) + कर (tax) + आबंटन (allocation); कर + प्रयोजन (purpose) + बद्धता (binding).",
+      "caution": "Provisional descriptive compounds, not attested in any inspected Hindi source."
+    }
+  },
+  "semantic_cluster": {
+    "english_terms": ["tax hypothecation", "hypothecated tax", "earmarking", "ring-fencing", "dedicated tax"],
+    "hindi_terms": ["उद्दिष्ट कर-आबंटन", "कर-प्रयोजनबद्धता", "उद्दिष्ट कराधान", "चिह्नित कर-राजस्व"],
+    "related_concepts": ["cess", "surcharge", "consolidated fund", "fiscal federalism", "revenue recycling"],
+    "synonyms": ["tax earmarking", "revenue ring-fencing"],
+    "near_synonyms": ["dedicated levy", "benefit taxation"],
+    "antonyms": ["general fund pooling", "unearmarked taxation"],
+    "broader_terms": ["fiscal policy", "public revenue allocation"],
+    "narrower_terms": ["environmental tax hypothecation", "health tax hypothecation", "transport levy hypothecation"],
+    "confusables": ["commercial hypothecation (see HAT-002-S1)", "cess", "surcharge"]
+  },
+  "equivalence_mapping": [
+    {"english_term": "tax hypothecation", "hindi_equivalent": "उद्दिष्ट कर-आबंटन", "transliteration": "uddiṣṭa kara-ābaṇṭana", "relationship": "Functional equivalent; proposed", "semantic_accuracy": "High", "usage_status": "Proposed (provisional); not attested"},
+    {"english_term": "tax hypothecation", "hindi_equivalent": "कर-प्रयोजनबद्धता", "transliteration": "kara-prayōjanabaddhatā", "relationship": "Contextual equivalent; proposed", "semantic_accuracy": "High", "usage_status": "Proposed (provisional); not attested"},
+    {"english_term": "tax hypothecation", "hindi_equivalent": "उद्दिष्ट कराधान", "transliteration": "uddiṣṭa karādhāna", "relationship": "Near equivalent; proposed", "semantic_accuracy": "Moderate", "usage_status": "Proposed (provisional); not attested"},
+    {"english_term": "tax hypothecation", "hindi_equivalent": "चिह्नित कर-राजस्व", "transliteration": "cihnita kara-rājasva", "relationship": "Contextual equivalent; proposed", "semantic_accuracy": "Moderate", "usage_status": "Proposed (provisional); not attested"},
+    {"english_term": "tax hypothecation", "hindi_equivalent": "दृष्टिबंधक / आडमान", "transliteration": "dr̥ṣṭibandhaka / āḍamāna", "relationship": "Incorrect or misleading equivalent", "semantic_accuracy": "Very low", "usage_status": "Forbidden for this sense; these mean commercial hypothecation"}
+  ],
+  "grammatical_metadata": {
+    "english": {
+      "lemma": "hypothecation",
+      "part_of_speech": ["noun"],
+      "countability": "Uncountable",
+      "number": "Singular",
+      "inflections": ["hypothecation"],
+      "derivations": ["hypothecated", "hypothecate"],
+      "syntactic_patterns": ["hypothecation of tax revenues", "financed by a hypothecated tax"],
+      "collocations": ["tax hypothecation", "hypothecated tax", "revenue hypothecation"]
+    },
+    "hindi": {
+      "lemma": "उद्दिष्ट कर-आबंटन",
+      "part_of_speech": ["संज्ञा पदबंध"],
+      "noun_type": "भाववाचक संज्ञा पदबंध",
+      "gender": "पुल्लिंग (आबंटन); कर-प्रयोजनबद्धता is स्त्रीलिंग",
+      "number": "एकवचन (प्रायः अगणनीय)",
+      "case": "परसर्ग के साथ: का/के, के अंतर्गत, द्वारा",
+      "postpositions": ["का", "के", "के अंतर्गत", "द्वारा", "के माध्यम से"],
+      "declension": "Not yet verified against a grammar source",
+      "verb_forms": ["उद्दिष्ट कर-आबंटन करना", "कर-राजस्व को प्रयोजनबद्ध करना"],
+      "transitivity": "Conjunct verbs: transitive",
+      "tense": [],
+      "aspect": [],
+      "voice": [],
+      "person": [],
+      "honorificity": "Not applicable",
+      "adjective_agreement": "Follows the gender of the head noun: आबंटन (m.), बद्धता (f.)",
+      "morphology": {
+        "उद्दिष्ट कर-आबंटन": "उद्दिष्ट + कर + आबंटन; Sanskrit-derived phrase",
+        "कर-प्रयोजनबद्धता": "कर + प्रयोजन + बद्धता; abstract noun with -ता"
+      },
+      "syntactic_patterns": ["पर्यावरण कर का उद्दिष्ट कर-आबंटन", "स्वास्थ्य सेवाओं हेतु कर-प्रयोजनबद्धता"],
+      "collocations": ["उद्दिष्ट कर", "उद्दिष्ट कर-आबंटन", "कर-प्रयोजनबद्धता"]
+    }
+  },
+  "pronunciation": {
+    "english_ipa": "/ˌhaɪpɒθɪˈkeɪʃən/ (UK); /ˌhaɪpɑːθəˈkeɪʃən/ (US)",
+    "hindi_ipa": "Not yet established",
+    "hindi_transliteration": "uddiṣṭa kara-ābaṇṭana; kara-prayōjanabaddhatā"
+  },
+  "register_and_pragmatics": {
+    "formality": "Formal",
+    "academic_register": "Public finance and economics",
+    "tone": "Neutral, analytical",
+    "connotation": "Neutral",
+    "cultural_nuances": ["In India, dedicated cesses (उपकर) work much like hypothecated taxes"],
+    "usage_restrictions": ["Do not use दृष्टिबंधक, आडमान or मालबंधन for this sense", "Mark all Hindi equivalents as provisional pending expert review"]
+  },
+  "linguistic_analysis": {
+    "sense_structure": "Sense 2: fiscal earmarking. Commercial hypothecation is a separate sense, HAT-002-S1.",
+    "word_formation": "Descriptive Sanskrit-derived compounds; no established single-word term found.",
+    "semantic_loss": "The historical link to commercial hypothecation is lost in Hindi, which is arguably clearer.",
+    "register": "Formal economics prose.",
+    "candidate_scorecard_1_to_5": [
+      {"candidate": "उद्दिष्ट कर-आबंटन", "semantic_equivalence": 5, "conceptual_precision": 5, "linguistic_validity": 5, "academic_usability": 4, "readability": 5, "observed_usage": 2, "disciplinary_suitability": 5, "basis": "Manual assessment from dossier; no usage evidence found."},
+      {"candidate": "कर-प्रयोजनबद्धता", "semantic_equivalence": 5, "conceptual_precision": 5, "linguistic_validity": 5, "academic_usability": 4, "readability": 3, "observed_usage": 1, "disciplinary_suitability": 5, "basis": "Manual assessment from dossier; no usage evidence found."}
+    ]
+  },
+  "conceptual_analysis": {
+    "core_boundary": "Revenue from a named tax is reserved for a named purpose and not pooled in the general fund.",
+    "not_implied": ["A borrower or lender", "A loan", "Movable collateral"],
+    "critical_distinctions": {
+      "vs_S1_commercial_hypothecation": "No borrower, loan or collateral exists in tax hypothecation.",
+      "vs_indian_cess": "A dedicated cess functions like partial or full tax hypothecation."
+    }
+  },
+  "pairwise_comparison": [
+    {"term_a": "उद्दिष्ट कर-आबंटन", "term_b": "कर-प्रयोजनबद्धता", "semantic_overlap": "Very high", "difference": "The first is a descriptive phrase and easier to read; the second is a compact abstract noun and harder to read.", "interchangeability": "Same concept; the first suits policy prose, the second suits theory."},
+    {"term_a": "उद्दिष्ट कर-आबंटन", "term_b": "दृष्टिबंधक", "semantic_overlap": "None", "difference": "दृष्टिबंधक means commercial hypothecation (S1).", "interchangeability": "Not interchangeable."}
+  ],
+  "existing_usage": [
+    {"term": "tax hypothecation (English)", "publication": "Public Economics: Principles and Practice", "author": "Peter Abelson", "year": "2021", "discipline": "Public finance", "context": "English definition of tax hypothecation, reported in the dossier; not independently opened. No Hindi usage found.", "page_or_section": "Tax hypothecation section (as reported)", "usage_type": "Academic book (English)", "url": "https://appliedeconomics.com.au/wp-content/uploads/2021/10/public-economics-principles-and-practice-book-by-peter-abelson.pdf", "frequency": "Not measured"},
+    {"term": "tax hypothecation (English)", "publication": "Innovative Infrastructure Financing in Indonesia", "author": "Asian Development Bank", "year": "2021", "discipline": "Public finance", "context": "English use of the term, reported in the dossier; not independently opened. No Hindi usage found.", "page_or_section": "Tax hypothecation definition (as reported)", "usage_type": "Policy report (English)", "url": "https://www.adb.org/sites/default/files/publication/702071/innovative-infrastructure-financing-indonesia.pdf", "frequency": "Not measured"}
+  ],
+  "proposed_terminology": {
+    "term": "उद्दिष्ट कर-आबंटन",
+    "proposal_status": "PROVISIONAL: requires review by Indian public-finance economists and Hindi linguists.",
+    "word_formation": "उद्दिष्ट + कर + आबंटन; alternative: कर + प्रयोजन + बद्धता.",
+    "justification": "No CSTT, RBI or Ministry of Finance Hindi equivalent was located, and reusing दृष्टिबंधक would be a conceptual error."
+  },
+  "terminology_status": "PROPOSED",
+  "linguistic_validity": "Strong",
+  "academic_acceptance": "Unverified",
+  "evidence_strength": "Limited",
+  "overall_confidence": "Low to moderate. The concept is clear and the compounds are well formed, but no Hindi usage evidence was found.",
+  "references": [
+    {"author_or_institution": "Peter Abelson", "title": "Public Economics: Principles and Practice", "year": "2021", "page_or_section": "Tax hypothecation section", "url": "https://appliedeconomics.com.au/wp-content/uploads/2021/10/public-economics-principles-and-practice-book-by-peter-abelson.pdf", "source_type": "Academic book", "claim_supported": "English definition of tax hypothecation", "licence": "Unclear", "commercial_reuse": "E", "attribution_requirements": "Cite author and title", "verification_status": "Not independently verified"},
+    {"author_or_institution": "Asian Development Bank", "title": "Innovative Infrastructure Financing in Indonesia", "year": "2021", "page_or_section": "Tax hypothecation definition", "url": "https://www.adb.org/sites/default/files/publication/702071/innovative-infrastructure-financing-indonesia.pdf", "source_type": "Policy report", "claim_supported": "English use of tax hypothecation", "licence": "Unclear", "commercial_reuse": "E", "attribution_requirements": "Cite ADB", "verification_status": "Not independently verified"}
+  ],
+  "licensing_information": {
+    "content_licence": "CC BY 4.0",
+    "status": "Source-specific clearance incomplete; definitions and analysis are original"
+  },
+  "translation_memory_metadata": {"status": "Not yet established"},
+  "nlp_metadata": {"status": "Not yet established"},
+  "educational_metadata": {"status": "Not yet established"},
+  "unresolved_questions": [
+    "No Hindi equivalent located in CSTT, RBI or Ministry of Finance sources",
+    "Hindi public-finance textbooks and budget documents not checked",
+    "Review by Indian public-finance economists and Hindi linguists",
+    "Corpus frequency not established"
+  ],
+  "reviewer_feedback": [],
+  "revision_history": [
+    {"version": "0.1.0", "date": "2026-11-23", "change": "Initial research dossier"},
+    {"version": "0.1.1", "date": "2026-11-23", "change": "Refined to schema v1.1"}
+  ],
+  "last_research_date": "2026-11-23",
+  "verification_status": "Draft"
+}
