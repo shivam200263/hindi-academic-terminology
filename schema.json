@@ -1,0 +1,53 @@
+{
+  "label_enums": {
+    "terminology_status": ["ESTABLISHED", "ATTESTED", "UNDER STANDARDISATION", "PROPOSED", "DISPUTED"],
+    "linguistic_validity": ["Strong", "Moderate", "Weak"],
+    "academic_acceptance": ["Established", "Attested", "Limited", "Unverified"],
+    "evidence_strength": ["Strong", "Moderate", "Limited"],
+    "commercial_reuse": ["A", "B", "C", "D", "E", "F"]
+  },
+  "term": {
+    "type": "object",
+    "required": ["sense_id"],
+    "properties": {
+      "sense_id": {"type": "string", "pattern": "^HAT-[0-9]{3}-S[0-9]+$"}
+    }
+  },
+  "sentence": {
+    "type": "object",
+    "required": [
+      "sentence_id", "source_type", "source_tier", "source_ref", "source_url",
+      "hindi_source", "verbatim_verified", "licence", "source_en", "target_hi",
+      "target_hi_refined", "term_en", "term_hi_used", "acceptable_alternatives",
+      "forbidden_hi", "confusable_terms", "context_note", "domain", "level",
+      "grammar_tags", "task_types", "correct", "verification_status", "notes"
+    ],
+    "properties": {
+      "sentence_id": {"type": "string", "minLength": 1},
+      "source_type": {"enum": ["pyq", "court", "statute", "govt_bilingual", "original"]},
+      "source_tier": {"enum": ["T1", "T2", "T3", "T4"]},
+      "source_ref": {"type": ["string", "null"]},
+      "source_url": {"type": ["string", "null"]},
+      "hindi_source": {"type": ["string", "null"]},
+      "verbatim_verified": {"type": ["boolean", "null"]},
+      "licence": {"type": "string"},
+      "source_en": {"type": "string", "minLength": 1},
+      "target_hi": {"type": "string", "minLength": 1},
+      "target_hi_refined": {"type": ["string", "null"]},
+      "refinement_note": {"type": ["string", "null"]},
+      "term_en": {"type": "string"},
+      "term_hi_used": {"type": "string"},
+      "acceptable_alternatives": {"type": "array", "items": {"type": "string"}},
+      "forbidden_hi": {"type": "array", "items": {"type": "string"}},
+      "confusable_terms": {"type": "array", "items": {"type": "string"}},
+      "context_note": {"type": ["string", "null"]},
+      "domain": {"type": "string"},
+      "level": {"type": "string"},
+      "grammar_tags": {"type": "array", "items": {"type": "string"}},
+      "task_types": {"type": "array", "items": {"type": "string"}},
+      "correct": {"type": "boolean"},
+      "verification_status": {"type": "string"},
+      "notes": {"type": ["string", "null"]}
+    }
+  }
+}
