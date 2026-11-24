@@ -15,3 +15,8 @@ jobs:
           python-version: "3.12"
       - run: pip install jsonschema
       - run: python scripts/validate.py
+      - run: python scripts/build.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dataset
+          path: build/
