@@ -16,11 +16,22 @@
   "sentence": {
     "type": "object",
     "required": [
-      "sentence_id", "source_type", "source_tier", "source_ref", "source_url",
-      "hindi_source", "verbatim_verified", "licence", "source_en", "target_hi",
-      "target_hi_refined", "term_en", "term_hi_used", "acceptable_alternatives",
-      "forbidden_hi", "confusable_terms", "context_note", "domain", "level",
-      "grammar_tags", "task_types", "correct", "verification_status", "notes"
+      "sentence_id", "source_type", "source_ref", "licence",
+      "source_en", "target_hi", "term_en", "term_hi_used",
+      "acceptable_alternatives", "forbidden_hi", "confusable_terms",
+      "context_note", "domain", "level", "grammar_tags", "task_types",
+      "correct", "verification_status", "notes"
+    ],
+    "allOf": [
+      {
+        "if": {
+          "properties": {"source_type": {"const": "original"}},
+          "required": ["source_type"]
+        },
+        "else": {
+          "required": ["source_tier", "source_url", "hindi_source", "verbatim_verified"]
+        }
+      }
     ],
     "properties": {
       "sentence_id": {"type": "string", "minLength": 1},
